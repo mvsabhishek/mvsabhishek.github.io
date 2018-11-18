@@ -30,7 +30,7 @@
 /* Modal Content (Image) */
 .modal-content {
     margin: auto;
-	margin-left: 50px;
+	margin-left: 200px;
     display: block;
     width: 80%;
     max-width: 700px;
@@ -70,7 +70,7 @@
 .close {
     position: absolute;
     top: 30px;
-    right: 60px;
+    right: 75px;
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
