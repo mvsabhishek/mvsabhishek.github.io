@@ -902,9 +902,11 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
-span.onkeypress = function(){
+$(document).keypress(function(e){
+	if(e.keyCode == 27){
 	modal.style.display = "none";
-}
+        } 
+});
 
 </script>
 
