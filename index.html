@@ -903,6 +903,13 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
+$(document).keyup(function(e) { 
+    if (e.keyCode == 27) { 
+       $.modal.close();
+    } 
+});
+
+
 </script>
 
   </body>
